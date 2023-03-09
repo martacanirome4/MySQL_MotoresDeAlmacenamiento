@@ -1,0 +1,10 @@
+create table tabla1 (
+	dni INT,
+	nombre VARCHAR(50),
+	apellido VARCHAR(50),
+    saldo MONEY,
+    /*YYYY-MM-DD*/
+    fecha_nacim DATE,
+    /*0-mujer, 1-hombre*/
+	gender binary,
+);
