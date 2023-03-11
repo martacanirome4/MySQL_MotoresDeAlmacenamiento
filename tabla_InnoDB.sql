@@ -7,5 +7,5 @@ create table tabla_InnoDB (
     fecha_nacim DATE,
     ultima_conex DATETIME,
     genero ENUM("M","F"),
-    PRIMARY key (id),)
+    PRIMARY key (id))
     engine=INNODB;
