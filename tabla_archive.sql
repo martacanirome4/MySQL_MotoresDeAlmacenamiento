@@ -6,5 +6,5 @@ create table tabla_archive (
 	apellido VARCHAR(50),
 	fecha_nacim DATE,
 	ultima_conex DATETIME,
-	genero ENUM('M','F'),
+	genero ENUM('M','F')
 ) engine=ARCHIVE;
