@@ -1,6 +1,6 @@
 create table tabla_inic (
 	dni INT,
-	saldo MONEY,
+	saldo DECIMAL,
 	activo BOOLEAN,
 	nombre VARCHAR(50),
 	apellido VARCHAR(50),

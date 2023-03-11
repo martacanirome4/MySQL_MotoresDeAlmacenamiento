@@ -1,6 +1,6 @@
 create table tabla_Blackhole (
 	id INT not NULL,
-	saldo MONEY not NULL,
+	saldo DECIMAL not NULL,
 	activo BOOLEAN not NULL,
 	nombre VARCHAR(50) not NULL,
 	apellido VARCHAR(50) not NULL,
