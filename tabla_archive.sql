@@ -1,5 +1,5 @@
 create table tabla_archive (
-	id INT not NULL,
+	id INT,
 	saldo DECIMAL,
 	activo BOOLEAN,
 	nombre VARCHAR(50),
@@ -7,5 +7,4 @@ create table tabla_archive (
 	fecha_nacim DATE,
 	ultima_conex DATETIME,
 	genero ENUM('M','F'),
-	PRIMARY key (id)
 ) engine=ARCHIVE;
