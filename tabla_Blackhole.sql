@@ -6,5 +6,5 @@ create table tabla_Blackhole (
 	apellido VARCHAR(50) not NULL,
 	fecha_nacim DATE not NULL,
 	ultima_conex DATETIME not NULL,
-	genero ENUM('M','F'),
+	genero ENUM('M','F') not NULL
 ) engine=BLACKHOLE;
