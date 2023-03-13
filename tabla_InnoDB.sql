@@ -1,7 +1,6 @@
 create table tabla_InnoDB (
     id INT not NULL,
     saldo DECIMAL,
-    activo BIT,
     nombre VARCHAR(50),
     apellido VARCHAR(50),
     fecha_nacim DATE,
